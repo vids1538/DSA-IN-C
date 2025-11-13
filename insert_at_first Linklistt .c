@@ -47,7 +47,7 @@ node *insert_first(node *head)
 	new=(node *)malloc(sizeof(node));
 	printf(" \nenter data for the new node :");
 	scanf("%d",&new->data);
-	new->next=NULL;
+	//new->next=NULL;
 	new->next=head;
 	head=new;
 	return head;
@@ -60,4 +60,5 @@ int main()
 	h=insert_first(h);
 	traverse(h);
 	
+
 }
