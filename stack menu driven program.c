@@ -7,7 +7,6 @@ int stack[MAXSIZE];
 void push();    // prototyping  
 void pop();
 void display();
-
 int main()
 {
     int choice;  // top will be -1 that is 0th index se niche     
@@ -74,4 +73,5 @@ void pop()
         top--;
         printf("popped item is %d\n", n);
     }
+
 }
